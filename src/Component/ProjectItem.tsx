@@ -1,6 +1,9 @@
+type imagetext={
+  img : string,
+  title : string,
+}
 
-
-const ProjectItem = ({img , title}) => {
+const ProjectItem = ({img , title} : imagetext) => {
   return (
     <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e]'>
         <img src={img} alt="/"  className='rounded-xl group-hover:opacity-10'/>

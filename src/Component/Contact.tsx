@@ -25,7 +25,7 @@ const Contact = () => {
             </div>
             <div className='flex flex-col py-2'>
                 <label className='uppercase text-sm py-2 '>Message</label>
-                <textarea className='border-2 rounded-lg p-3 flex border-gray-300' name="message"  rows='10' ></textarea>
+                <textarea className='border-2 rounded-lg p-3 flex border-gray-300' name="message"  rows={10} ></textarea>
             </div>
             <button className=' bg-[#001b5e] text-gray-100 mt-4 w-full p-4 rounded-lg'>
                 Send Message

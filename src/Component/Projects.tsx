@@ -1,4 +1,3 @@
-import React from 'react'
 
 import ProjectMessi from './../assets/ProjectMessi.webp'
 import Project1 from './../assets/Project1.jpg'

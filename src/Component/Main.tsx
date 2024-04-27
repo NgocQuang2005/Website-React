@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { FaFacebookF, FaInstagram, FaTiktok } from 'react-icons/fa'
 import { TypeAnimation } from 'react-type-animation'
 const Main = () => {

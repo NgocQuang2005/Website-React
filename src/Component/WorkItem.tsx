@@ -1,6 +1,11 @@
+type kieudulieu ={
+  year: number,
+  title?: string,
+  duration: string,
+  details: string
+};
 
-
-const WordItem = ({year, title, duration, details}) => {
+const WordItem = ({year, title, duration, details} : kieudulieu ) => {
   return (
     <ol className="flex flex-col md:flex-row relative border-l border-stone-200 ">
       <li className="mb-10 ml-8 ">
